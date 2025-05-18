@@ -1,3 +1,13 @@
-div.cave-grid {
-  border: 3px solid red !important;
+a[href$="130269"] > div.mound-grid,
+a[href$="138013"] > div.mound-grid,
+a[href$="175410"] > div.mound-grid {
+  background-image: url('https://i.imgur.com/LecVzTd.jpeg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+a[href$="130269"] > div.mound-grid > img,
+a[href$="138013"] > div.mound-grid > img,
+a[href$="175410"] > div.mound-grid > img {
+  opacity: 0 !important;
 }
